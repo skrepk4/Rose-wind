@@ -1,0 +1,201 @@
+.container{
+    
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.header-link{
+    text-decoration: none;
+}
+header{
+    margin-bottom: 50px;
+    margin-top: 45px;
+    font-size: 30px;
+}
+.button1{
+    width: 165px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 1px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #171b40;
+    color: white;
+    width: 2500px;
+    height: 900px;
+}
+.container1-text1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+.container1-text2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.button2{
+    width: 165px;
+    height: 50px;
+    background-color: palevioletred;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 1px;
+}
+.button21{
+    display: flex;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.gallery .gallery-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery .gallery-cards .card-image{
+    width: 900px;
+    height: 600px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+.gallery-cards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.zagolovok{
+    font-size: 50px;
+    text-align: center;
+
+}
+.card-image{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2-text1{
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+}
+.container2-text2{
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.button3{
+     margin-bottom: 30px;
+    width: 165px;
+    height: 50px;
+    background-color: palevioletred;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 1px;
+}
+.button4{
+    background-color: #171b40;
+    width: 165px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 6px;
+    padding: 15px 1px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #171b40;
+    width: 2500px;
+    height: 350px;
+    padding-bottom: 100px;
+}
+ul{
+    width: 1500px;
+    display: flex;
+   list-style: none;
+    justify-content: space-around;
+} 
+.footer-div{
+    font-size: 20px;
+}
+.footer-h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer1-h2{
+    display: flex;
+    justify-content: center;
+}
+.paragraph{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer-nav{
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-link{
+    list-style: none;
+}
+.paragraf{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    object-fit: fill;
+}
+.card-image{
+    display: flex;
+    flex-direction: column;
+}
